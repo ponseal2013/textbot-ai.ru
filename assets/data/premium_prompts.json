@@ -1,0 +1,28 @@
+{
+  "prompts": [
+    {
+      "id": "premium_copywriting_001",
+      "task": "Разработать сценарий рекламной кампании",
+      "category": "Копирайтинг",
+      "difficulty": "Эксперт",
+      "prompt": "Составь сценарий рекламной кампании для [продукт] с 3 каналами продвижения. Пример: 'Канал 1: Соцсети, посты с видео...'",
+      "prompt_en": "Create an ad campaign script for [product] with 3 promotion channels. Example: 'Channel 1: Social media, video posts...'"
+    },
+    {
+      "id": "premium_copywriting_002",
+      "task": "Написать продающий текст для лендинга SaaS-продукта",
+      "category": "Копирайтинг",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь продающий текст для лендинга SaaS-продукта, автоматизирующего email-рассылки. Текст до 300 слов, с 3 выгодами, призывом к действию, tone of voice: профессиональный, доступный.",
+      "prompt_en": "Create a sales text for a SaaS product landing page that automates email campaigns. Text up to 300 words, with 3 benefits, a call to action, professional yet approachable tone."
+    },
+    {
+      "id": "premium_copywriting_003",
+      "task": "Создать сценарий для рекламного ролика бренда",
+      "category": "Копирайтинг",
+      "difficulty": "Профессионал",
+      "prompt": "Разработай сценарий 30-секундного рекламного ролика для модного бренда одежды. Укажи сцены, диалоги, визуальные элементы, акцент на экологичность, для аудитории 25–35 лет.",
+      "prompt_en": "Develop a 30-second ad video script for a fashion clothing brand. Specify scenes, dialogues, visuals, emphasize eco-friendliness, target audience 25–35."
+    }
+  ]
+}

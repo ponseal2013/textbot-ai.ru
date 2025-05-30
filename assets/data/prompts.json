@@ -1,0 +1,1204 @@
+{
+  "prompts": [
+    {
+      "id": "copywriting_001",
+      "task": "Написать заголовок для статьи",
+      "category": "Копирайтинг",
+      "difficulty": "Новичок",
+      "prompt": "Напиши короткий и цепляющий заголовок для статьи о [тема]. Пример: '5 секретов успешного утра'.",
+      "prompt_en": "Write a short and catchy headline for an article about [topic]. Example: '5 Secrets to a Successful Morning'."
+    },
+    {
+      "id": "copywriting_002",
+      "task": "Создать описание продукта",
+      "category": "Копирайтинг",
+      "difficulty": "Новичок",
+      "prompt": "Напиши краткое описание (50 слов) для [продукт] для интернет-магазина. Пример: 'Умные часы X1: стиль, функциональность, 7 дней автономной работы!'",
+      "prompt_en": "Write a brief description (50 words) for [product] for an online store. Example: 'X1 Smartwatch: style, functionality, 7 days of battery life!'"
+    },
+    {
+      "id": "copywriting_003",
+      "task": "Создать рекламный текст",
+      "category": "Копирайтинг",
+      "difficulty": "Средний",
+      "prompt": "Напиши рекламный текст для [продукт], 100 слов, для аудитории [аудитория], с призывом к действию. Пример: 'Увеличь продуктивность с нашим приложением! Скачай сейчас!'",
+      "prompt_en": "Write an ad text for [product], 100 words, for [audience], with a call to action. Example: 'Boost productivity with our app! Download now!'"
+    },
+    {
+      "id": "copywriting_004",
+      "task": "Написать текст для email-рассылки",
+      "category": "Копирайтинг",
+      "difficulty": "Средний",
+      "prompt": "Составь текст для email-рассылки (150 слов) о [тема], с акцентом на выгоду для читателя. Пример: 'Узнай, как сэкономить 30% времени с нашей программой!'",
+      "prompt_en": "Compose an email newsletter text (150 words) about [topic], emphasizing reader benefits. Example: 'Learn how to save 30% of your time with our program!'"
+    },
+    {
+      "id": "copywriting_005",
+      "task": "Создать серию постов для соцсетей",
+      "category": "Копирайтинг",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь серию из 3 постов для Instagram о [тема], 150 слов каждый, с хэштегами и призывом к действию. Пример: 'День 1: Как начать... #мотивация #успех Поделись в комментариях!'",
+      "prompt_en": "Create a series of 3 Instagram posts about [topic], 150 words each, with hashtags and a call to action. Example: 'Day 1: How to start... #motivation #success Share in comments!'"
+    },
+    {
+      "id": "sales_001",
+      "task": "Составить скрипт холодного звонка",
+      "category": "Продажи",
+      "difficulty": "Новичок",
+      "prompt": "Напиши короткий скрипт для холодного звонка по продаже [продукт]. Пример: 'Здравствуйте, я Иван, предлагаю решение для экономии времени!'",
+      "prompt_en": "Write a short cold call script for selling [product]. Example: 'Hello, I'm Ivan, offering a time-saving solution!'"
+    },
+    {
+      "id": "sales_002",
+      "task": "Создать текст для листовки",
+      "category": "Продажи",
+    "difficulty": "Новичок",
+      "prompt": "Напиши текст для листовки (50 слов) о [услуга]. Пример: 'Ремонт за 24 часа! Качество гарантируем!'",
+      "prompt_en": "Write text for a flyer (50 words) about [service]. Example: 'Repairs in 24 hours! Quality guaranteed!'"
+    },
+    {
+      "id": "sales_003",
+      "task": "Разработать предложение для клиента",
+      "category": "Продажи",
+      "difficulty": "Средний",
+      "prompt": "Составь коммерческое предложение (150 слов) для [продукт/услуга], с акцентом на выгоды. Пример: 'Наше ПО увеличит ваши продажи на 20%!'",
+      "prompt_en": "Create a commercial proposal (150 words) for [product/service], emphasizing benefits. Example: 'Our software will boost your sales by 20%!'"
+    },
+    {
+      "id": "sales_004",
+      "task": "Создать сценарий переговоров",
+      "category": "Продажи",
+      "difficulty": "Средний",
+      "prompt": "Напиши сценарий переговоров для продажи [продукт], включая ответы на возражения. Пример: 'Если дорого, давайте обсудим рассрочку!'",
+      "prompt_en": "Write a negotiation script for selling [product], including objection handling. Example: 'If it's expensive, let's discuss installments!'"
+    },
+    {
+      "id": "sales_005",
+      "task": "Разработать стратегию upsell",
+      "category": "Продажи",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь стратегию upsell для [продукт], с примерами предложений и выгод. Пример: 'Добавьте подписку за 500 руб. и получите доступ к премиум-функциям!'",
+      "prompt_en": "Develop an upsell strategy for [product], with offer examples and benefits. Example: 'Add a subscription for 500 RUB and get premium features!'"
+    },
+    {
+      "id": "hr_001",
+      "task": "Написать вакансию",
+      "category": "HR",
+      "difficulty": "Новичок",
+      "prompt": "Напиши объявление о вакансии [должность] для сайта. Пример: 'Ищем менеджера по продажам! ЗП от 80 000 руб.'",
+      "prompt_en": "Write a job posting for [position] for a website. Example: 'Hiring a sales manager! Salary from 80,000 RUB.'"
+    },
+    {
+      "id": "hr_002",
+      "task": "Составить письмо кандидату",
+      "category": "HR",
+      "difficulty": "Новичок",
+      "prompt": "Напиши письмо с приглашением на собеседование для [должность]. Пример: 'Уважаемый Иван, приглашаем вас на собеседование 10 мая!'",
+      "prompt_en": "Write an interview invitation email for [position]. Example: 'Dear Ivan, we invite you to an interview on May 10!'"
+    },
+    {
+      "id": "hr_003",
+      "task": "Создать вопросы для собеседования",
+      "category": "HR",
+      "difficulty": "Средний",
+      "prompt": "Составь 5 вопросов для собеседования на [должность]. Пример: 'Расскажите, как вы решали сложные задачи на прошлом месте?'",
+      "prompt_en": "Create 5 interview questions for [position]. Example: 'Tell us how you solved complex tasks at your previous job?'"
+    },
+    {
+      "id": "hr_004",
+      "task": "Написать план адаптации",
+      "category": "HR",
+      "difficulty": "Средний",
+      "prompt": "Составь план адаптации для нового сотрудника на [должность]. Пример: 'День 1: Знакомство с командой, обучение CRM.'",
+      "prompt_en": "Create an onboarding plan for a new employee in [position]. Example: 'Day 1: Team introduction, CRM training.'"
+    },
+    {
+      "id": "hr_005",
+      "task": "Разработать KPI для команды",
+      "category": "HR",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь систему KPI для команды [отдел] с 3 показателями. Пример: 'Менеджеры: 10 продаж/месяц, 90% удовлетворенности клиентов.'",
+      "prompt_en": "Develop a KPI system for the [department] team with 3 metrics. Example: 'Managers: 10 sales/month, 90% customer satisfaction.'"
+    },
+    {
+      "id": "blogging_001",
+      "task": "Написать идею для поста",
+      "category": "Блоггинг",
+      "difficulty": "Новичок",
+      "prompt": "Придумай идею для поста в блоге о [тема]. Пример: 'Как организовать утро для продуктивного дня.'",
+      "prompt_en": "Come up with an idea for a blog post about [topic]. Example: 'How to organize your morning for a productive day.'"
+    },
+    {
+      "id": "blogging_002",
+      "task": "Создать план статьи",
+      "category": "Блоггинг",
+      "difficulty": "Новичок",
+      "prompt": "Составь план статьи на [тема] с 5 пунктами. Пример: '1. Введение 2. Почему это важно 3. Практические советы...'",
+      "prompt_en": "Create an article outline on [topic] with 5 points. Example: '1. Introduction 2. Why it matters 3. Practical tips...'"
+    },
+    {
+      "id": "blogging_003",
+      "task": "Написать статью для блога",
+      "category": "Блоггинг",
+      "difficulty": "Средний",
+      "prompt": "Напиши статью (300 слов) на тему [тема] для блога. Пример: 'Как улучшить тайм-менеджмент: 5 простых шагов.'",
+      "prompt_en": "Write a blog article (300 words) on [topic]. Example: 'How to improve time management: 5 simple steps.'"
+    },
+    {
+      "id": "blogging_004",
+      "task": "Создать серию постов",
+      "category": "Блоггинг",
+      "difficulty": "Средний",
+      "prompt": "Составь серию из 3 постов для блога на [тема], по 200 слов. Пример: 'Пост 1: Введение в тему... Пост 2: Практика...'",
+      "prompt_en": "Create a series of 3 blog posts on [topic], 200 words each. Example: 'Post 1: Introduction to the topic... Post 2: Practice...'"
+    },
+    {
+      "id": "blogging_005",
+      "task": "Оптимизировать статью для SEO",
+      "category": "Блоггинг",
+      "difficulty": "Продвинутый",
+      "prompt": "Напиши статью (500 слов) на [тема] с ключевыми словами [ключевые слова] для SEO. Пример: 'Тайм-менеджмент: как успевать всё. Ключи: тайм-менеджмент, продуктивность.'",
+      "prompt_en": "Write an article (500 words) on [topic] with keywords [keywords] for SEO. Example: 'Time management: how to do everything. Keywords: time management, productivity.'"
+    },
+    {
+      "id": "youtube_001",
+      "task": "Написать описание для видео",
+      "category": "YouTube",
+      "difficulty": "Новичок",
+      "prompt": "Напиши описание (50 слов) для YouTube-видео на [тема]. Пример: 'Узнайте, как организовать свой день за 5 минут!'",
+      "prompt_en": "Write a description (50 words) for a YouTube video on [topic]. Example: 'Learn how to organize your day in 5 minutes!'"
+    },
+    {
+      "id": "youtube_002",
+      "task": "Создать заголовок для видео",
+      "category": "YouTube",
+      "difficulty": "Новичок",
+      "prompt": "Придумай кликабельный заголовок для YouTube-видео о [тема]. Пример: 'Секреты продуктивности за 5 минут!'",
+      "prompt_en": "Create a clickable title for a YouTube video about [topic]. Example: 'Productivity secrets in 5 minutes!'"
+    },
+    {
+      "id": "youtube_003",
+      "task": "Написать сценарий для видео",
+      "category": "YouTube",
+      "difficulty": "Средний",
+      "prompt": "Составь сценарий для 3-минутного YouTube-видео на [тема]. Пример: 'Вступление: Привет, сегодня расскажу о... Основная часть: 3 совета...'",
+      "prompt_en": "Write a script for a 3-minute YouTube video on [topic]. Example: 'Intro: Hi, today I'll talk about... Main part: 3 tips...'"
+    },
+    {
+      "id": "youtube_004",
+      "task": "Создать план для серии видео",
+      "category": "YouTube",
+      "difficulty": "Средний",
+      "prompt": "Составь план для серии из 3 YouTube-видео на [тема]. Пример: 'Видео 1: Введение... Видео 2: Практика... Видео 3: Итоги.'",
+      "prompt_en": "Create a plan for a series of 3 YouTube videos on [topic]. Example: 'Video 1: Introduction... Video 2: Practice... Video 3: Results.'"
+    },
+    {
+      "id": "youtube_005",
+      "task": "Разработать стратегию продвижения канала",
+      "category": "YouTube",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь стратегию продвижения YouTube-канала о [тема] с 5 шагами. Пример: '1. Оптимизация заголовков 2. Коллаборации с блогерами...'",
+      "prompt_en": "Develop a YouTube channel promotion strategy for [topic] with 5 steps. Example: '1. Title optimization 2. Collaborations with bloggers...'"
+    },
+    {
+      "id": "marketing_001",
+      "task": "Создать слоган",
+      "category": "Маркетинг",
+      "difficulty": "Новичок",
+      "prompt": "Придумай запоминающийся слоган для [бренд/продукт]. Пример: 'Твоя энергия — наш кофе!'",
+      "prompt_en": "Create a memorable slogan for [brand/product]. Example: 'Your energy — our coffee!'"
+    },
+    {
+      "id": "marketing_002",
+      "task": "Написать текст для баннера",
+      "category": "Маркетинг",
+      "difficulty": "Новичок",
+      "prompt": "Напиши текст для рекламного баннера (30 слов) о [продукт]. Пример: 'Скидка 50% на умные часы! Только до конца недели!'",
+      "prompt_en": "Write text for an ad banner (30 words) about [product]. Example: '50% off smartwatches! Only until the end of the week!'"
+    },
+    {
+      "id": "marketing_003",
+      "task": "Разработать план email-кампании",
+      "category": "Маркетинг",
+      "difficulty": "Средний",
+      "prompt": "Составь план email-кампании из 3 писем для [продукт]. Пример: 'Письмо 1: Знакомство с продуктом... Письмо 2: Выгоды...'",
+      "prompt_en": "Create a plan for an email campaign with 3 emails for [product]. Example: 'Email 1: Product introduction... Email 2: Benefits...'"
+    },
+    {
+      "id": "marketing_004",
+      "task": "Создать текст для соцсетей",
+      "category": "Маркетинг",
+      "difficulty": "Средний",
+      "prompt": "Напиши пост для соцсетей (100 слов) о [продукт] с призывом к действию. Пример: 'Попробуй наш продукт и измени свою жизнь! #бренд'",
+      "prompt_en": "Write a social media post (100 words) about [product] with a call to action. Example: 'Try our product and change your life! #brand'"
+    },
+    {
+      "id": "marketing_005",
+      "task": "Разработать маркетинговую стратегию",
+      "category": "Маркетинг",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь маркетинговую стратегию для [продукт] с 5 каналами продвижения. Пример: '1. Контекстная реклама 2. Соцсети 3. Коллаборации...'",
+      "prompt_en": "Develop a marketing strategy for [product] with 5 promotion channels. Example: '1. Contextual advertising 2. Social media 3. Collaborations...'"
+    },
+    {
+      "id": "design_001",
+      "task": "Создать концепцию логотипа",
+      "category": "Дизайн",
+      "difficulty": "Новичок",
+      "prompt": "Опиши концепцию логотипа для [бренд]. Пример: 'Логотип для кофейни: чашка с паром, минимализм.'",
+      "prompt_en": "Describe a logo concept for [brand]. Example: 'Logo for a coffee shop: a steaming cup, minimalism.'"
+    },
+    {
+      "id": "design_002",
+      "task": "Подобрать цветовую палитру",
+      "category": "Дизайн",
+      "difficulty": "Новичок",
+      "prompt": "Подбери цветовую палитру из 3 цветов для [проект]. Пример: 'Для сайта кафе: тёплый бежевый, коричневый, кремовый.'",
+      "prompt_en": "Select a color palette of 3 colors for [project]. Example: 'For a cafe website: warm beige, brown, creamy.'"
+    },
+    {
+      "id": "design_003",
+      "task": "Создать макет баннера",
+      "category": "Дизайн",
+      "difficulty": "Средний",
+      "prompt": "Опиши макет баннера (размер, элементы) для [продукт]. Пример: 'Баннер 1200x600: фото продукта, заголовок, кнопка CTA.'",
+      "prompt_en": "Describe a banner layout (size, elements) for [product]. Example: 'Banner 1200x600: product photo, headline, CTA button.'"
+    },
+    {
+      "id": "design_004",
+      "task": "Разработать стиль бренда",
+      "category": "Дизайн",
+      "difficulty": "Средний",
+      "prompt": "Создай гайд по стилю бренда (шрифты, цвета, элементы) для [бренд]. Пример: 'Шрифт: Montserrat, цвета: синий #00b7eb, белый.'",
+      "prompt_en": "Create a brand style guide (fonts, colors, elements) for [brand]. Example: 'Font: Montserrat, colors: blue #00b7eb, white.'"
+    },
+    {
+      "id": "design_005",
+      "task": "Создать прототип интерфейса",
+      "category": "Дизайн",
+      "difficulty": "Продвинутый",
+      "prompt": "Опиши прототип интерфейса для [приложение] с 3 экранами. Пример: 'Экран 1: Главная с меню, Экран 2: Профиль...'",
+      "prompt_en": "Describe a UI prototype for [app] with 3 screens. Example: 'Screen 1: Home with menu, Screen 2: Profile...'"
+    },
+    {
+      "id": "programming_001",
+      "task": "Написать простой код",
+      "category": "Программирование",
+      "difficulty": "Новичок",
+      "prompt": "Напиши код на [язык] для вывода текста 'Привет, мир!'. Пример: 'Python: print('Привет, мир!')'",
+      "prompt_en": "Write code in [language] to output 'Hello, World!'. Example: 'Python: print('Hello, World!')'"
+    },
+    {
+      "id": "programming_002",
+      "task": "Создать функцию",
+      "category": "Программирование",
+      "difficulty": "Новичок",
+      "prompt": "Напиши функцию на [язык] для вычисления суммы двух чисел. Пример: 'Python: def sum(a, b): return a + b'",
+      "prompt_en": "Write a function in [language] to calculate the sum of two numbers. Example: 'Python: def sum(a, b): return a + b'"
+    },
+    {
+      "id": "programming_003",
+      "task": "Оптимизировать код",
+      "category": "Программирование",
+      "difficulty": "Средний",
+      "prompt": "Оптимизируй код на [язык] для [задача]. Пример: 'Python: вместо цикла for использовать list comprehension.'",
+      "prompt_en": "Optimize code in [language] for [task]. Example: 'Python: use list comprehension instead of a for loop.'"
+    },
+    {
+      "id": "programming_004",
+      "task": "Написать API-запрос",
+      "category": "Программирование",
+      "difficulty": "Средний",
+      "prompt": "Напиши код на [язык] для GET-запроса к API [URL]. Пример: 'Python: requests.get('https://api.example.com/data')'",
+      "prompt_en": "Write code in [language] for a GET request to API [URL]. Example: 'Python: requests.get('https://api.example.com/data')'"
+    },
+    {
+      "id": "programming_005",
+      "task": "Разработать архитектуру приложения",
+      "category": "Программирование",
+      "difficulty": "Продвинутый",
+      "prompt": "Опиши архитектуру приложения на [язык] для [задача]. Пример: 'Python: REST API с Flask, база данных PostgreSQL.'",
+      "prompt_en": "Describe the app architecture in [language] for [task]. Example: 'Python: REST API with Flask, PostgreSQL database.'"
+    },
+    {
+      "id": "education_001",
+      "task": "Создать план урока",
+      "category": "Образование",
+      "difficulty": "Новичок",
+      "prompt": "Составь план урока на [тема] для [аудитория]. Пример: 'Урок математики, 5 класс: 1. Введение 2. Примеры...'",
+      "prompt_en": "Create a lesson plan on [topic] for [audience]. Example: 'Math lesson, 5th grade: 1. Introduction 2. Examples...'"
+    },
+    {
+      "id": "education_002",
+      "task": "Написать текст для лекции",
+      "category": "Образование",
+      "difficulty": "Новичок",
+      "prompt": "Напиши текст лекции (200 слов) на [тема]. Пример: 'Введение в программирование: что такое Python?'",
+      "prompt_en": "Write a lecture text (200 words) on [topic]. Example: 'Introduction to programming: what is Python?'"
+    },
+    {
+      "id": "education_003",
+      "task": "Создать тест",
+      "category": "Образование",
+      "difficulty": "Средний",
+      "prompt": "Составь тест из 5 вопросов по [тема] с ответами. Пример: 'Вопрос: Что такое цикл? Ответ: Повторение кода.'",
+      "prompt_en": "Create a test with 5 questions on [topic] with answers. Example: 'Question: What is a loop? Answer: Code repetition.'"
+    },
+    {
+      "id": "education_004",
+      "task": "Разработать учебный курс",
+      "category": "Образование",
+      "difficulty": "Средний",
+      "prompt": "Составь план курса из 5 уроков по [тема]. Пример: 'Курс Python: Урок 1: Основы, Урок 2: Циклы...'",
+      "prompt_en": "Create a course plan with 5 lessons on [topic]. Example: 'Python course: Lesson 1: Basics, Lesson 2: Loops...'"
+    },
+    {
+      "id": "education_005",
+      "task": "Создать интерактивное задание",
+      "category": "Образование",
+      "difficulty": "Продвинутый",
+      "prompt": "Разработай интерактивное задание для [тема] с примерами. Пример: 'Задание: Напишите код для калькулятора, проверьте через симуляцию.'",
+      "prompt_en": "Develop an interactive task for [topic] with examples. Example: 'Task: Write calculator code, test via simulation.'"
+    },
+    {
+      "id": "smm_001",
+      "task": "Создать идею для поста",
+      "category": "SMM",
+      "difficulty": "Новичок",
+      "prompt": "Придумай идею для поста в соцсетях о [тема]. Пример: 'Пост о здоровом питании: 5 идей для завтрака.'",
+      "prompt_en": "Come up with an idea for a social media post about [topic]. Example: 'Post about healthy eating: 5 breakfast ideas.'"
+    },
+    {
+      "id": "smm_002",
+      "task": "Написать подпись к посту",
+      "category": "SMM",
+      "difficulty": "Новичок",
+      "prompt": "Напиши подпись (30 слов) для поста в Instagram о [тема]. Пример: 'Начни день с энергии! Какой твой любимый завтрак? #здоровье'",
+      "prompt_en": "Write a caption (30 words) for an Instagram post about [topic]. Example: 'Start your day with energy! What's your favorite breakfast? #health'"
+    },
+    {
+      "id": "smm_003",
+      "task": "Создать контент-план",
+      "category": "SMM",
+      "difficulty": "Средний",
+      "prompt": "Составь контент-план на неделю для Instagram о [тема]. Пример: 'Понедельник: Советы, Среда: История, Пятница: Опрос.'",
+      "prompt_en": "Create a weekly content plan for Instagram about [topic]. Example: 'Monday: Tips, Wednesday: Story, Friday: Poll.'"
+    },
+    {
+      "id": "smm_004",
+      "task": "Написать текст для Stories",
+      "category": "SMM",
+      "difficulty": "Средний",
+      "prompt": "Напиши текст для 3 Instagram Stories о [тема]. Пример: 'Стори 1: Вопрос дня, Стори 2: Факт, Стори 3: CTA.'",
+      "prompt_en": "Write text for 3 Instagram Stories about [topic]. Example: 'Story 1: Question of the day, Story 2: Fact, Story 3: CTA.'"
+    },
+    {
+      "id": "smm_005",
+      "task": "Разработать стратегию продвижения",
+      "category": "SMM",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь стратегию продвижения в соцсетях для [бренд] с 5 шагами. Пример: '1. Таргетированная реклама 2. Коллаборации с лидерами мнений...'",
+      "prompt_en": "Develop a social media promotion strategy for [brand] with 5 steps. Example: '1. Targeted advertising 2. Collaborations with influencers...'"
+    },
+    {
+      "id": "analytics_001",
+      "task": "Описать метрики для анализа",
+      "category": "Аналитика",
+      "difficulty": "Новичок",
+      "prompt": "Опиши 3 ключевые метрики для анализа [проект]. Пример: 'Для сайта: посещаемость, конверсия, время на странице.'",
+      "prompt_en": "Describe 3 key metrics for analyzing [project]. Example: 'For a website: traffic, conversion, time on page.'"
+    },
+    {
+      "id": "analytics_002",
+      "task": "Создать шаблон отчёта",
+      "category": "Аналитика",
+      "difficulty": "Новичок",
+      "prompt": "Составь шаблон отчёта для [проект] с 3 разделами. Пример: '1. Введение 2. Метрики 3. Выводы.'",
+      "prompt_en": "Create a report template for [project] with 3 sections. Example: '1. Introduction 2. Metrics 3. Conclusions.'"
+    },
+    {
+      "id": "analytics_003",
+      "task": "Проанализировать данные",
+      "category": "Аналитика",
+      "difficulty": "Средний",
+      "prompt": "Опиши, как проанализировать данные [тип данных] для [цель]. Пример: 'Анализ продаж: выявить сезонные тренды.'",
+      "prompt_en": "Describe how to analyze [data type] for [goal]. Example: 'Sales analysis: identify seasonal trends.'"
+    },
+    {
+      "id": "analytics_004",
+      "task": "Создать дашборд",
+      "category": "Аналитика",
+      "difficulty": "Средний",
+      "prompt": "Опиши структуру дашборда для [проект] с 3 виджетами. Пример: '1. График продаж 2. Конверсия 3. Источники трафика.'",
+      "prompt_en": "Describe a dashboard structure for [project] with 3 widgets. Example: '1. Sales chart 2. Conversion 3. Traffic sources.'"
+    },
+    {
+      "id": "analytics_005",
+      "task": "Разработать модель прогнозирования",
+      "category": "Аналитика",
+      "difficulty": "Продвинутый",
+      "prompt": "Опиши модель прогнозирования для [задача] с шагами. Пример: 'Прогноз продаж: сбор данных, выбор алгоритма, тестирование.'",
+      "prompt_en": "Describe a forecasting model for [task] with steps. Example: 'Sales forecast: data collection, algorithm selection, testing.'"
+    },
+    {
+      "id": "idea_generation_001",
+      "task": "Придумать идею для проекта",
+      "category": "Генерация идей",
+      "difficulty": "Новичок",
+      "prompt": "Придумай идею для проекта в сфере [тема]. Пример: 'Приложение для учёта привычек.'",
+      "prompt_en": "Come up with a project idea in the field of [topic]. Example: 'App for tracking habits.'"
+    },
+    {
+      "id": "idea_generation_002",
+      "task": "Создать список идей",
+      "category": "Генерация идей",
+      "difficulty": "Новичок",
+      "prompt": "Составь список из 5 идей для [тема]. Пример: 'Идеи для стартапа: 1. Эко-упаковка 2. Приложение для медитации...'",
+      "prompt_en": "Create a list of 5 ideas for [topic]. Example: 'Startup ideas: 1. Eco-packaging 2. Meditation app...'"
+    },
+    {
+      "id": "idea_generation_003",
+      "task": "Разработать концепцию продукта",
+      "category": "Генерация идей",
+      "difficulty": "Средний",
+      "prompt": "Опиши концепцию продукта для [аудитория] в [тема]. Пример: 'Приложение для студентов: планирование учёбы.'",
+      "prompt_en": "Describe a product concept for [audience] in [topic]. Example: 'App for students: study planning.'"
+    },
+    {
+      "id": "idea_generation_004",
+      "task": "Создать план brainstorming-сессии",
+      "category": "Генерация идей",
+      "difficulty": "Средний",
+      "prompt": "Составь план brainstorming-сессии для [тема]. Пример: '1. Введение 2. Генерация идей 3. Обсуждение.'",
+      "prompt_en": "Create a plan for a brainstorming session on [topic]. Example: '1. Introduction 2. Idea generation 3. Discussion.'"
+    },
+    {
+      "id": "idea_generation_005",
+      "task": "Разработать инновационное решение",
+      "category": "Генерация идей",
+      "difficulty": "Продвинутый",
+      "prompt": "Опиши инновационное решение для [проблема] с шагами реализации. Пример: 'Решение для экологии: биоразлагаемая упаковка, производство.'",
+      "prompt_en": "Describe an innovative solution for [problem] with implementation steps. Example: 'Environmental solution: biodegradable packaging, production.'"
+    },
+    {
+      "id": "translation_001",
+      "task": "Перевести короткий текст",
+      "category": "Переводы",
+      "difficulty": "Новичок",
+      "prompt": "Переведи текст (50 слов) с [язык] на русский. Пример: 'Английский: I love to travel. Перевод: Я люблю путешествовать.'",
+      "prompt_en": "Translate a text (50 words) from [language] to Russian. Example: 'English: I love to travel. Translation: I love traveling.'"
+    },
+    {
+      "id": "translation_002",
+      "task": "Перевести заголовок",
+      "category": "Переводы",
+      "difficulty": "Новичок",
+      "prompt": "Переведи заголовок с [язык] на русский. Пример: 'Английский: Top 5 Tips. Перевод: Топ-5 советов.'",
+      "prompt_en": "Translate a headline from [language] to Russian. Example: 'English: Top 5 Tips. Translation: Top 5 Tips.'"
+    },
+    {
+      "id": "translation_003",
+      "task": "Перевести статью",
+      "category": "Переводы",
+      "difficulty": "Средний",
+      "prompt": "Переведи статью (200 слов) с [язык] на русский с сохранением стиля. Пример: 'Английский текст о путешествиях перевести с сохранением эмоций.'",
+      "prompt_en": "Translate an article (200 words) from [language] to Russian, preserving style. Example: 'English travel text translated with preserved emotions.'"
+    },
+    {
+      "id": "translation_004",
+      "task": "Адаптировать текст для аудитории",
+      "category": "Переводы",
+      "difficulty": "Средний",
+      "prompt": "Переведи и адаптируй текст (150 слов) с [язык] для [аудитория]. Пример: 'Адаптировать статью о технологиях для подростков.'",
+      "prompt_en": "Translate and adapt a text (150 words) from [language] for [audience]. Example: 'Adapt a tech article for teenagers.'"
+    },
+    {
+      "id": "translation_005",
+      "task": "Перевести технический документ",
+      "category": "Переводы",
+      "difficulty": "Продвинутый",
+      "prompt": "Переведи технический документ (300 слов) с [язык] на русский. Пример: 'Руководство по ПО: точный перевод терминов.'",
+      "prompt_en": "Translate a technical document (300 words) from [language] to Russian. Example: 'Software manual: accurate term translation.'"
+    },
+    {
+      "id": "content_strategy_001",
+      "task": "Определить цель контента",
+      "category": "Контент-стратегия",
+      "difficulty": "Новичок",
+      "prompt": "Опиши цель контента для [проект]. Пример: 'Цель: повысить узнаваемость бренда через статьи.'",
+      "prompt_en": "Describe the content goal for [project]. Example: 'Goal: increase brand awareness through articles.'"
+    },
+    {
+      "id": "content_strategy_002",
+      "task": "Создать список тем",
+      "category": "Контент-стратегия",
+      "difficulty": "Новичок",
+      "prompt": "Составь список из 5 тем для контента по [тема]. Пример: 'Темы для блога: 1. Тайм-менеджмент 2. Продуктивность...'",
+      "prompt_en": "Create a list of 5 content topics for [topic]. Example: 'Blog topics: 1. Time management 2. Productivity...'"
+    },
+    {
+      "id": "content_strategy_003",
+      "task": "Разработать контент-план",
+      "category": "Контент-стратегия",
+      "difficulty": "Средний",
+      "prompt": "Составь контент-план на месяц для [канал]. Пример: 'Неделя 1: 2 статьи, 3 поста, 1 видео.'",
+      "prompt_en": "Create a monthly content plan for [channel]. Example: 'Week 1: 2 articles, 3 posts, 1 video.'"
+    },
+    {
+      "id": "content_strategy_004",
+      "task": "Определить tone of voice",
+      "category": "Контент-стратегия",
+      "difficulty": "Средний",
+      "prompt": "Опиши tone of voice для [бренд]. Пример: 'Дружелюбный и профессиональный для IT-компании.'",
+      "prompt_en": "Describe the tone of voice for [brand]. Example: 'Friendly and professional for an IT company.'"
+    },
+    {
+      "id": "content_strategy_005",
+      "task": "Создать стратегию контента",
+      "category": "Контент-стратегия",
+      "difficulty": "Продвинутый",
+      "prompt": "Разработай стратегию контента для [бренд] с 5 шагами. Пример: '1. Анализ аудитории 2. Выбор каналов...'",
+      "prompt_en": "Develop a content strategy for [brand] with 5 steps. Example: '1. Audience analysis 2. Channel selection...'"
+    },
+    {
+      "id": "customer_support_001",
+      "task": "Написать ответ на вопрос",
+      "category": "Поддержка клиентов",
+      "difficulty": "Новичок",
+      "prompt": "Напиши ответ на вопрос клиента о [продукт]. Пример: 'Наши часы водонепроницаемы до 50 метров.'",
+      "prompt_en": "Write a response to a customer question about [product]. Example: 'Our watches are waterproof up to 50 meters.'"
+    },
+    {
+      "id": "customer_support_002",
+      "task": "Создать шаблон ответа",
+      "category": "Поддержка клиентов",
+      "difficulty": "Новичок",
+      "prompt": "Составь шаблон ответа на [тип запроса]. Пример: 'Спасибо за обращение! Проверим ваш заказ и свяжемся.'",
+      "prompt_en": "Create a response template for [request type]. Example: 'Thank you for contacting us! We'll check your order and get back to you.'"
+    },
+    {
+      "id": "customer_support_003",
+      "task": "Разработать FAQ",
+      "category": "Поддержка клиентов",
+      "difficulty": "Средний",
+      "prompt": "Составь FAQ из 5 вопросов и ответов для [продукт]. Пример: 'Вопрос: Как вернуть товар? Ответ: В течение 14 дней.'",
+      "prompt_en": "Create an FAQ with 5 questions and answers for [product]. Example: 'Question: How to return an item? Answer: Within 14 days.'"
+    },
+    {
+      "id": "customer_support_004",
+      "task": "Написать скрипт для чата",
+      "category": "Поддержка клиентов",
+      "difficulty": "Средний",
+      "prompt": "Составь скрипт для чата поддержки по [тема]. Пример: 'Здравствуйте! Чем могу помочь с вашим заказом?'",
+      "prompt_en": "Write a support chat script for [topic]. Example: 'Hello! How can I help with your order?'"
+    },
+    {
+      "id": "customer_support_005",
+      "task": "Создать план обучения команды",
+      "category": "Поддержка клиентов",
+      "difficulty": "Продвинутый",
+      "prompt": "Разработай план обучения для команды поддержки по [тема]. Пример: '1. Работа с CRM 2. Общение с клиентами...'",
+      "prompt_en": "Develop a training plan for the support team on [topic]. Example: '1. CRM usage 2. Customer communication...'"
+    },
+    {
+      "id": "e_commerce_001",
+      "task": "Написать описание товара",
+      "category": "Интернет-магазины",
+      "difficulty": "Новичок",
+      "prompt": "Напиши описание товара (50 слов) для [продукт]. Пример: 'Смартфон X: экран 6.5”, батарея 4000 мАч.'",
+      "prompt_en": "Write a product description (50 words) for [product]. Example: 'X Smartphone: 6.5” screen, 4000 mAh battery.'"
+    },
+    {
+      "id": "e_commerce_002",
+      "task": "Создать текст акции",
+      "category": "Интернет-магазины",
+      "difficulty": "Новичок",
+      "prompt": "Напиши текст акции для [продукт]. Пример: 'Скидка 20% на наушники! Только до конца месяца!'",
+      "prompt_en": "Write a promotion text for [product]. Example: '20% off headphones! Only until the end of the month!'"
+    },
+    {
+      "id": "e_commerce_003",
+      "task": "Оптимизировать карточку товара",
+      "category": "Интернет-магазины",
+      "difficulty": "Средний",
+      "prompt": "Опиши оптимизацию карточки товара для [продукт]. Пример: 'Добавить фото, ключевые слова, отзывы.'",
+      "prompt_en": "Describe product card optimization for [product]. Example: 'Add photos, keywords, reviews.'"
+    },
+    {
+      "id": "e_commerce_004",
+      "task": "Создать план email-рассылки",
+      "category": "Интернет-магазины",
+      "difficulty": "Средний",
+      "prompt": "Составь план email-рассылки для интернет-магазина (3 письма). Пример: 'Письмо 1: Новинки, Письмо 2: Скидки...'",
+      "prompt_en": "Create an email campaign plan for an online store (3 emails). Example: 'Email 1: New arrivals, Email 2: Discounts...'"
+    },
+    {
+      "id": "e_commerce_005",
+      "task": "Разработать стратегию продаж",
+      "category": "Интернет-магазины",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь стратегию продаж для интернет-магазина с 5 шагами. Пример: '1. SEO-оптимизация 2. Реклама в соцсетях...'",
+      "prompt_en": "Develop a sales strategy for an online store with 5 steps. Example: '1. SEO optimization 2. Social media advertising...'"
+    },
+    {
+      "id": "seo_001",
+      "task": "Подобрать ключевые слова",
+      "category": "SEO",
+      "difficulty": "Новичок",
+      "prompt": "Подбери 5 ключевых слов для [тема]. Пример: 'Для блога о фитнесе: фитнес, тренировки, здоровье.'",
+      "prompt_en": "Select 5 keywords for [topic]. Example: 'For a fitness blog: fitness, workouts, health.'"
+    },
+    {
+      "id": "seo_002",
+      "task": "Написать мета-описание",
+      "category": "SEO",
+      "difficulty": "Новичок",
+      "prompt": "Напиши мета-описание (160 символов) для [страница]. Пример: 'Узнайте, как улучшить здоровье с фитнес-программами!'",
+      "prompt_en": "Write a meta-description (160 characters) for [page]. Example: 'Learn how to improve health with fitness programs!'"
+    },
+    {
+      "id": "seo_003",
+      "task": "Оптимизировать статью",
+      "category": "SEO",
+      "difficulty": "Средний",
+      "prompt": "Оптимизируй статью (300 слов) для SEO с [ключевые слова]. Пример: 'Ключи: фитнес, тренировки. Использовать в заголовках и тексте.'",
+      "prompt_en": "Optimize an article (300 words) for SEO with [keywords]. Example: 'Keywords: fitness, workouts. Use in headings and text.'"
+    },
+    {
+      "id": "seo_004",
+      "task": "Создать план внутренней перелинковки",
+      "category": "SEO",
+      "difficulty": "Средний",
+      "prompt": "Составь план перелинковки для сайта [тема]. Пример: 'Связать статьи о фитнесе с разделом тренировок.'",
+      "prompt_en": "Create an internal linking plan for a website on [topic]. Example: 'Link fitness articles to the workouts section.'"
+    },
+    {
+      "id": "seo_005",
+      "task": "Разработать SEO-стратегию",
+      "category": "SEO",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь SEO-стратегию для сайта [тема] с 5 шагами. Пример: '1. Анализ конкурентов 2. Подбор ключей 3. Оптимизация контента...'",
+      "prompt_en": "Develop an SEO strategy for a website on [topic] with 5 steps. Example: '1. Competitor analysis 2. Keyword selection 3. Content optimization...'"
+    },
+    {
+      "id": "data_analysis_001",
+      "task": "Описать типы данных",
+      "category": "Анализ данных",
+      "difficulty": "Новичок",
+      "prompt": "Опиши типы данных для анализа [проект]. Пример: 'Продажи: числовые (объём), категориальные (регион).'",
+      "prompt_en": "Describe data types for analyzing [project]. Example: 'Sales: numerical (volume), categorical (region).'"
+    },
+    {
+      "id": "data_analysis_002",
+      "task": "Создать структуру отчёта",
+      "category": "Анализ данных",
+      "difficulty": "Новичок",
+      "prompt": "Составь структуру отчёта по данным [тема]. Пример: '1. Введение 2. Данные 3. Выводы.'",
+      "prompt_en": "Create a report structure for data on [topic]. Example: '1. Introduction 2. Data 3. Conclusions.'"
+    },
+    {
+      "id": "data_analysis_003",
+      "task": "Описать процесс очистки данных",
+      "category": "Анализ данных",
+      "difficulty": "Средний",
+      "prompt": "Опиши процесс очистки данных для [задача]. Пример: 'Удаление дубликатов, заполнение пропусков.'",
+      "prompt_en": "Describe the data cleaning process for [task]. Example: 'Removing duplicates, filling missing values.'"
+    },
+    {
+      "id": "data_analysis_004",
+      "task": "Создать визуализацию данных",
+      "category": "Анализ данных",
+      "difficulty": "Средний",
+      "prompt": "Опиши визуализацию данных для [задача]. Пример: 'График продаж: линейный, по месяцам.'",
+      "prompt_en": "Describe data visualization for [task]. Example: 'Sales chart: linear, by month.'"
+    },
+    {
+      "id": "data_analysis_005",
+      "task": "Разработать аналитическую модель",
+      "category": "Анализ данных",
+      "difficulty": "Продвинутый",
+      "prompt": "Опиши модель анализа данных для [задача]. Пример: 'Прогноз продаж: линейная регрессия, Python.'",
+      "prompt_en": "Describe a data analysis model for [task]. Example: 'Sales forecast: linear regression, Python.'"
+    },
+    {
+      "id": "creative_writing_001",
+      "task": "Написать короткий рассказ",
+      "category": "Креативное письмо",
+      "difficulty": "Новичок",
+      "prompt": "Напиши рассказ (100 слов) на тему [тема]. Пример: 'История о коте, который искал дом.'",
+      "prompt_en": "Write a short story (100 words) on [topic]. Example: 'A story about a cat looking for a home.'"
+    },
+    {
+      "id": "creative_writing_002",
+      "task": "Создать описание персонажа",
+      "category": "Креативное письмо",
+      "difficulty": "Новичок",
+      "prompt": "Опиши персонажа для [жанр]. Пример: 'Детектив: Джон, 40 лет, умный, но циничный.'",
+      "prompt_en": "Describe a character for [genre]. Example: 'Detective: John, 40, smart but cynical.'"
+    },
+    {
+      "id": "creative_writing_003",
+      "task": "Написать диалог",
+      "category": "Креативное письмо",
+      "difficulty": "Средний",
+      "prompt": "Напиши диалог (150 слов) между [персонажи] на [тема]. Пример: 'Разговор двух друзей о мечтах.'",
+      "prompt_en": "Write a dialogue (150 words) between [characters] on [topic]. Example: 'Conversation between two friends about dreams.'"
+    },
+    {
+      "id": "creative_writing_004",
+      "task": "Создать сюжет",
+      "category": "Креативное письмо",
+      "difficulty": "Средний",
+      "prompt": "Опиши сюжет для рассказа на [тема]. Пример: 'Герой находит загадочный дневник и отправляется в путешествие.'",
+      "prompt_en": "Describe a story plot for [topic]. Example: 'A hero finds a mysterious diary and embarks on a journey.'"
+    },
+    {
+      "id": "creative_writing_005",
+      "task": "Написать сценарий короткометражки",
+      "category": "Креативное письмо",
+      "difficulty": "Продвинутый",
+      "prompt": "Напиши сценарий короткометражки (300 слов) на [тема]. Пример: 'Фильм о выборе: герой решает судьбу за 10 минут.'",
+      "prompt_en": "Write a short film script (300 words) on [topic]. Example: 'Film about choice: a hero decides fate in 10 minutes.'"
+    },
+    {
+      "id": "video_editing_001",
+      "task": "Описать структуру видео",
+      "category": "Видеомонтаж",
+      "difficulty": "Новичок",
+      "prompt": "Опиши структуру видео на [тема]. Пример: 'Введение, основная часть, финал с CTA.'",
+      "prompt_en": "Describe the structure of a video on [topic]. Example: 'Introduction, main part, ending with CTA.'"
+    },
+    {
+      "id": "video_editing_002",
+      "task": "Создать таймлайн для монтажа",
+      "category": "Видеомонтаж",
+      "difficulty": "Новичок",
+      "prompt": "Составь таймлайн для 2-минутного видео на [тема]. Пример: '0:00-0:10: Лого, 0:10-1:00: Основной контент.'",
+      "prompt_en": "Create a timeline for a 2-minute video on [topic]. Example: '0:00-0:10: Logo, 0:10-1:00: Main content.'"
+    },
+    {
+      "id": "video_editing_003",
+      "task": "Описать переходы для видео",
+      "category": "Видеомонтаж",
+      "difficulty": "Средний",
+      "prompt": "Опиши 3 перехода для видео на [тема]. Пример: 'Плавное затемнение, зум, слайд.'",
+      "prompt_en": "Describe 3 transitions for a video on [topic]. Example: 'Smooth fade, zoom, slide.'"
+    },
+    {
+      "id": "video_editing_004",
+      "task": "Создать план цветокоррекции",
+      "category": "Видеомонтаж",
+      "difficulty": "Средний",
+      "prompt": "Составь план цветокоррекции для видео на [тема]. Пример: 'Тёплые тона для сцен на закате.'",
+      "prompt_en": "Create a color correction plan for a video on [topic]. Example: 'Warm tones for sunset scenes.'"
+    },
+    {
+      "id": "video_editing_005",
+      "task": "Разработать стиль монтажа",
+      "category": "Видеомонтаж",
+      "difficulty": "Продвинутый",
+      "prompt": "Опиши стиль монтажа для [проект] с примерами. Пример: 'Динамичный монтаж для влога: быстрые переходы, музыка.'",
+      "prompt_en": "Describe the editing style for [project] with examples. Example: 'Dynamic editing for vlogs: fast transitions, music.'"
+    },
+    {
+      "id": "project_management_001",
+      "task": "Создать план проекта",
+      "category": "Управление проектами",
+      "difficulty": "Новичок",
+      "prompt": "Составь план проекта для [задача]. Пример: '1. Определение целей 2. Распределение задач.'",
+      "prompt_en": "Create a project plan for [task]. Example: '1. Define goals 2. Assign tasks.'"
+    },
+    {
+      "id": "project_management_002",
+      "task": "Описать роли команды",
+      "category": "Управление проектами",
+      "difficulty": "Новичок",
+      "prompt": "Опиши роли команды для [проект]. Пример: 'Менеджер: контроль сроков, дизайнер: создание макетов.'",
+      "prompt_en": "Describe team roles for [project]. Example: 'Manager: deadline control, designer: creating layouts.'"
+    },
+    {
+      "id": "project_management_003",
+      "task": "Создать график проекта",
+      "category": "Управление проектами",
+      "difficulty": "Средний",
+      "prompt": "Составь график проекта для [задача]. Пример: 'Неделя 1: Планирование, Неделя 2: Разработка.'",
+      "prompt_en": "Create a project schedule for [task]. Example: 'Week 1: Planning, Week 2: Development.'"
+    },
+    {
+      "id": "project_management_004",
+      "task": "Описать управление рисками",
+      "category": "Управление проектами",
+      "difficulty": "Средний",
+      "prompt": "Опиши план управления рисками для [проект]. Пример: 'Риск: задержка сроков, решение: резервное время.'",
+      "prompt_en": "Describe a risk management plan for [project]. Example: 'Risk: deadline delays, solution: reserve time.'"
+    },
+    {
+      "id": "project_management_005",
+      "task": "Разработать стратегию проекта",
+      "category": "Управление проектами",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь стратегию управления проектом [задача]. Пример: '1. Agile-подход 2. Еженедельные спринты...'",
+      "prompt_en": "Develop a project management strategy for [task]. Example: '1. Agile approach 2. Weekly sprints...'"
+    },
+    {
+      "id": "personal_branding_001",
+      "task": "Описать личный бренд",
+      "category": "Личный брендинг",
+      "difficulty": "Новичок",
+      "prompt": "Опиши личный бренд для [профессия]. Пример: 'Блогер: эксперт по фитнесу, вдохновляющий.'",
+      "prompt_en": "Describe a personal brand for [profession]. Example: 'Blogger: fitness expert, inspiring.'"
+    },
+    {
+      "id": "personal_branding_002",
+      "task": "Создать текст для профиля",
+      "category": "Личный брендинг",
+      "difficulty": "Новичок",
+      "prompt": "Напиши текст для профиля в соцсетях (50 слов). Пример: 'Я Анна, коуч по продуктивности. Помогаю достигать целей!'",
+      "prompt_en": "Write a social media profile text (50 words). Example: 'I'm Anna, a productivity coach. I help achieve goals!'"
+    },
+    {
+      "id": "personal_branding_003",
+      "task": "Создать контент-план для бренда",
+      "category": "Личный брендинг",
+      "difficulty": "Средний",
+      "prompt": "Составь контент-план на месяц для личного бренда. Пример: 'Неделя 1: Пост о достижениях, стори о работе.'",
+      "prompt_en": "Create a monthly content plan for a personal brand. Example: 'Week 1: Post about achievements, story about work.'"
+    },
+    {
+      "id": "personal_branding_004",
+      "task": "Написать пост для продвижения",
+      "category": "Личный брендинг",
+      "difficulty": "Средний",
+      "prompt": "Напиши пост (150 слов) для продвижения личного бренда. Пример: 'Моя история успеха: как я стал коучем. #бренд'",
+      "prompt_en": "Write a post (150 words) to promote a personal brand. Example: 'My success story: how I became a coach. #brand'"
+    },
+    {
+      "id": "personal_branding_005",
+      "task": "Разработать стратегию бренда",
+      "category": "Личный брендинг",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь стратегию личного бренда с 5 шагами. Пример: '1. Определение ниши 2. Создание контента...'",
+      "prompt_en": "Develop a personal brand strategy with 5 steps. Example: '1. Niche definition 2. Content creation...'"
+    },
+    {
+      "id": "gamification_001",
+      "task": "Придумать игровую механику",
+      "category": "Геймификация",
+      "difficulty": "Новичок",
+      "prompt": "Придумай игровую механику для [проект]. Пример: 'Баллы за выполнение задач в приложении.'",
+      "prompt_en": "Create a game mechanic for [project]. Example: 'Points for completing tasks in an app.'"
+    },
+    {
+      "id": "gamification_002",
+      "task": "Описать награды",
+      "category": "Геймификация",
+      "difficulty": "Новичок",
+      "prompt": "Опиши 3 награды для [проект]. Пример: 'Значки за 10, 50, 100 выполненных задач.'",
+      "prompt_en": "Describe 3 rewards for [project]. Example: 'Badges for 10, 50, 100 completed tasks.'"
+    },
+    {
+      "id": "gamification_003",
+      "task": "Создать план геймификации",
+      "category": "Геймификация",
+      "difficulty": "Средний",
+      "prompt": "Составь план геймификации для [проект]. Пример: '1. Баллы за действия 2. Лидерборд.'",
+      "prompt_en": "Create a gamification plan for [project]. Example: '1. Points for actions 2. Leaderboard.'"
+    },
+    {
+      "id": "gamification_004",
+      "task": "Описать сценарий игры",
+      "category": "Геймификация",
+      "difficulty": "Средний",
+      "prompt": "Опиши сценарий геймификации для [проект]. Пример: 'Пользователь получает баллы за покупки, открывает уровни.'",
+      "prompt_en": "Describe a gamification scenario for [project]. Example: 'User earns points for purchases, unlocks levels.'"
+    },
+    {
+      "id": "gamification_005",
+      "task": "Разработать стратегию геймификации",
+      "category": "Геймификация",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь стратегию геймификации для [проект]. Пример: '1. Анализ аудитории 2. Введение баллов и наград...'",
+      "prompt_en": "Develop a gamification strategy for [project]. Example: '1. Audience analysis 2. Introducing points and rewards...'"
+    },
+    {
+      "id": "email_marketing_001",
+      "task": "Написать тему письма",
+      "category": "Email-маркетинг",
+      "difficulty": "Новичок",
+      "prompt": "Придумай тему письма для [тема]. Пример: 'Скидка 20% только для вас!'",
+      "prompt_en": "Create an email subject for [topic]. Example: '20% discount just for you!'"
+    },
+    {
+      "id": "email_marketing_002",
+      "task": "Создать текст письма",
+      "category": "Email-маркетинг",
+      "difficulty": "Новичок",
+      "prompt": "Напиши текст письма (100 слов) для [тема]. Пример: 'Узнайте о наших новинках и получите скидку!'",
+      "prompt_en": "Write an email text (100 words) for [topic]. Example: 'Discover our new products and get a discount!'"
+    },
+    {
+      "id": "email_marketing_003",
+      "task": "Создать серию писем",
+      "category": "Email-маркетинг",
+      "difficulty": "Средний",
+      "prompt": "Составь серию из 3 писем для [тема]. Пример: 'Письмо 1: Приветствие, Письмо 2: Выгоды, Письмо 3: CTA.'",
+      "prompt_en": "Create a series of 3 emails for [topic]. Example: 'Email 1: Greeting, Email 2: Benefits, Email 3: CTA.'"
+    },
+    {
+      "id": "email_marketing_004",
+      "task": "Оптимизировать письмо для конверсии",
+      "category": "Email-маркетинг",
+      "difficulty": "Средний",
+      "prompt": "Опиши оптимизацию письма для [тема]. Пример: 'Добавить кнопку CTA, сократить текст до 150 слов.'",
+      "prompt_en": "Describe email optimization for [topic]. Example: 'Add a CTA button, shorten text to 150 words.'"
+    },
+    {
+      "id": "email_marketing_005",
+      "task": "Разработать стратегию email-кампании",
+      "category": "Email-маркетинг",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь стратегию email-кампании для [тема]. Пример: '1. Сегментация аудитории 2. Персонализация писем...'",
+      "prompt_en": "Develop an email campaign strategy for [topic]. Example: '1. Audience segmentation 2. Email personalization...'"
+    },
+    {
+      "id": "ux_ui_001",
+      "task": "Описать пользовательский сценарий",
+      "category": "UX/UI",
+      "difficulty": "Новичок",
+      "prompt": "Опиши пользовательский сценарий для [приложение]. Пример: 'Пользователь регистрируется, выбирает продукт.'",
+      "prompt_en": "Describe a user scenario for [app]. Example: 'User registers, selects a product.'"
+    },
+    {
+      "id": "ux_ui_002",
+      "task": "Создать структуру экрана",
+      "category": "UX/UI",
+      "difficulty": "Новичок",
+      "prompt": "Опиши структуру главного экрана для [приложение]. Пример: 'Меню, кнопка поиска, баннер.'",
+      "prompt_en": "Describe the main screen structure for [app]. Example: 'Menu, search button, banner.'"
+    },
+    {
+      "id": "ux_ui_003",
+      "task": "Создать прототип интерфейса",
+      "category": "UX/UI",
+      "difficulty": "Средний",
+      "prompt": "Опиши прототип интерфейса для [приложение]. Пример: 'Экран 1: Логин, Экран 2: Профиль.'",
+      "prompt_en": "Describe a UI prototype for [app]. Example: 'Screen 1: Login, Screen 2: Profile.'"
+    },
+    {
+      "id": "ux_ui_004",
+      "task": "Провести анализ удобства",
+      "category": "UX/UI",
+      "difficulty": "Средний",
+      "prompt": "Опиши анализ удобства интерфейса [приложение]. Пример: 'Проверить скорость загрузки, читаемость текста.'",
+      "prompt_en": "Describe a usability analysis for [app] interface. Example: 'Check loading speed, text readability.'"
+    },
+    {
+      "id": "ux_ui_005",
+      "task": "Разработать UX-стратегию",
+      "category": "UX/UI",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь UX-стратегию для [приложение]. Пример: '1. Исследование пользователей 2. Прототипирование...'",
+      "prompt_en": "Develop a UX strategy for [app]. Example: '1. User research 2. Prototyping...'"
+    },
+    {
+      "id": "market_research_001",
+      "task": "Описать целевую аудиторию",
+      "category": "Исследование рынка",
+      "difficulty": "Новичок",
+      "prompt": "Опиши целевую аудиторию для [продукт]. Пример: 'Молодёжь 18-25 лет, интересующаяся технологиями.'",
+      "prompt_en": "Describe the target audience for [product]. Example: 'Youth 18-25, interested in technology.'"
+    },
+    {
+      "id": "market_research_002",
+      "task": "Создать список вопросов",
+      "category": "Исследование рынка",
+      "difficulty": "Новичок",
+      "prompt": "Составь 5 вопросов для исследования [тема]. Пример: 'Что вам важно в смартфоне?'",
+      "prompt_en": "Create 5 questions for research on [topic]. Example: 'What’s important to you in a smartphone?'"
+    },
+    {
+      "id": "market_research_003",
+      "task": "Описать метод исследования",
+      "category": "Исследование рынка",
+      "difficulty": "Средний",
+      "prompt": "Опиши метод исследования для [тема]. Пример: 'Опрос 100 клиентов о предпочтениях.'",
+      "prompt_en": "Describe a research method for [topic]. Example: 'Survey 100 customers about preferences.'"
+    },
+    {
+      "id": "market_research_004",
+      "task": "Создать отчёт по исследованию",
+      "category": "Исследование рынка",
+      "difficulty": "Средний",
+      "prompt": "Составь отчёт по исследованию [тема]. Пример: '1. Введение 2. Данные 3. Выводы.'",
+      "prompt_en": "Create a research report on [topic]. Example: '1. Introduction 2. Data 3. Conclusions.'"
+    },
+    {
+      "id": "market_research_005",
+      "task": "Разработать стратегию исследования",
+      "category": "Исследование рынка",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь стратегию исследования рынка для [тема]. Пример: '1. Анализ конкурентов 2. Опросы...'",
+      "prompt_en": "Develop a market research strategy for [topic]. Example: '1. Competitor analysis 2. Surveys...'"
+    },
+    {
+      "id": "presentation_design_001",
+      "task": "Создать структуру презентации",
+      "category": "Дизайн презентаций",
+      "difficulty": "Новичок",
+      "prompt": "Составь структуру презентации на [тема]. Пример: '1. Введение 2. Проблема 3. Решение.'",
+      "prompt_en": "Create a presentation structure on [topic]. Example: '1. Introduction 2. Problem 3. Solution.'"
+    },
+    {
+      "id": "presentation_design_002",
+      "task": "Описать дизайн слайда",
+      "category": "Дизайн презентаций",
+      "difficulty": "Новичок",
+      "prompt": "Опиши дизайн слайда для [тема]. Пример: 'Минимализм, белый фон, синий текст.'",
+      "prompt_en": "Describe a slide design for [topic]. Example: 'Minimalism, white background, blue text.'"
+    },
+    {
+      "id": "presentation_design_003",
+      "task": "Создать план презентации",
+      "category": "Дизайн презентаций",
+      "difficulty": "Средний",
+      "prompt": "Составь план презентации из 5 слайдов на [тема]. Пример: 'Слайд 1: Введение, Слайд 2: Данные...'",
+      "prompt_en": "Create a presentation plan with 5 slides on [topic]. Example: 'Slide 1: Introduction, Slide 2: Data...'"
+    },
+    {
+      "id": "presentation_design_004",
+      "task": "Описать визуальные элементы",
+      "category": "Дизайн презентаций",
+      "difficulty": "Средний",
+      "prompt": "Опиши визуальные элементы для презентации [тема]. Пример: 'Иконки, графики, тёмная тема.'",
+      "prompt_en": "Describe visual elements for a presentation on [topic]. Example: 'Icons, charts, dark theme.'"
+    },
+    {
+      "id": "presentation_design_005",
+      "task": "Разработать стиль презентации",
+      "category": "Дизайн презентаций",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь стиль презентации для [тема]. Пример: 'Минимализм, шрифт Roboto, цвета: синий #00b7eb, белый #ffffff.'",
+      "prompt_en": "Develop a presentation style for [topic]. Example: 'Minimalism, Roboto font, colors: blue #00b7eb, white #ffffff.'"
+    },
+    {
+      "id": "chatbot_development_001",
+      "task": "Описать сценарий чат-бота",
+      "category": "Разработка чат-ботов",
+      "difficulty": "Новичок",
+      "prompt": "Опиши сценарий чат-бота для [задача]. Пример: 'Бот для магазина: приветствие, выбор товара, оформление заказа.'",
+      "prompt_en": "Describe a chatbot scenario for [task]. Example: 'Store bot: greeting, product selection, order placement.'"
+    },
+    {
+      "id": "chatbot_development_002",
+      "task": "Создать структуру диалога",
+      "category": "Разработка чат-ботов",
+      "difficulty": "Новичок",
+      "prompt": "Составь структуру диалога для чат-бота по [тема]. Пример: '1. Приветствие 2. Вопрос о потребностях 3. Ответ.'",
+      "prompt_en": "Create a dialogue structure for a chatbot on [topic]. Example: '1. Greeting 2. Question about needs 3. Response.'"
+    },
+    {
+      "id": "chatbot_development_003",
+      "task": "Написать скрипт для бота",
+      "category": "Разработка чат-ботов",
+      "difficulty": "Средний",
+      "prompt": "Напиши скрипт для чат-бота на [тема] с 3 ветками диалога. Пример: 'Бот поддержки: вопрос о заказе, доставке, возврате.'",
+      "prompt_en": "Write a script for a chatbot on [topic] with 3 dialogue branches. Example: 'Support bot: questions about order, delivery, returns.'"
+    },
+    {
+      "id": "chatbot_development_004",
+      "task": "Описать интеграцию бота",
+      "category": "Разработка чат-ботов",
+      "difficulty": "Средний",
+      "prompt": "Опиши интеграцию чат-бота с [платформа]. Пример: 'Бот для Telegram: подключение через API, настройка webhook.'",
+      "prompt_en": "Describe chatbot integration with [platform]. Example: 'Telegram bot: API connection, webhook setup.'"
+    },
+    {
+      "id": "chatbot_development_005",
+      "task": "Разработать стратегию чат-бота",
+      "category": "Разработка чат-ботов",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь стратегию разработки чат-бота для [задача]. Пример: '1. Анализ аудитории 2. Выбор платформы 3. Тестирование.'",
+      "prompt_en": "Develop a chatbot development strategy for [task]. Example: '1. Audience analysis 2. Platform selection 3. Testing.'"
+    },
+    {
+      "id": "content_curation_001",
+      "task": "Подобрать контент",
+      "category": "Кураторство контента",
+      "difficulty": "Новичок",
+      "prompt": "Подбери 5 источников контента для [тема]. Пример: 'Для фитнеса: блоги, YouTube-каналы, статьи.'",
+      "prompt_en": "Select 5 content sources for [topic]. Example: 'For fitness: blogs, YouTube channels, articles.'"
+    },
+    {
+      "id": "content_curation_002",
+      "task": "Создать список рекомендаций",
+      "category": "Кураторство контента",
+      "difficulty": "Новичок",
+      "prompt": "Составь список из 3 рекомендованных материалов по [тема]. Пример: '1. Статья о йоге 2. Видео о питании.'",
+      "prompt_en": "Create a list of 3 recommended materials on [topic]. Example: '1. Yoga article 2. Nutrition video.'"
+    },
+    {
+      "id": "content_curation_003",
+      "task": "Описать процесс отбора контента",
+      "category": "Кураторство контента",
+      "difficulty": "Средний",
+      "prompt": "Опиши процесс отбора контента для [проект]. Пример: '1. Поиск по ключам 2. Проверка актуальности 3. Оценка качества.'",
+      "prompt_en": "Describe the content selection process for [project]. Example: '1. Keyword search 2. Relevance check 3. Quality assessment.'"
+    },
+    {
+      "id": "content_curation_004",
+      "task": "Создать план публикаций",
+      "category": "Кураторство контента",
+      "difficulty": "Средний",
+      "prompt": "Составь план публикаций кураторского контента на неделю для [тема]. Пример: 'Понедельник: статья, Среда: видео.'",
+      "prompt_en": "Create a weekly publication plan for curated content on [topic]. Example: 'Monday: article, Wednesday: video.'"
+    },
+    {
+      "id": "content_curation_005",
+      "task": "Разработать стратегию кураторства",
+      "category": "Кураторство контента",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь стратегию кураторства контента для [проект]. Пример: '1. Анализ аудитории 2. Подбор источников 3. Регулярные публикации.'",
+      "prompt_en": "Develop a content curation strategy for [project]. Example: '1. Audience analysis 2. Source selection 3. Regular publications.'"
+    },
+    {
+      "id": "business_strategy_001",
+      "task": "Описать бизнес-цели",
+      "category": "Бизнес-стратегия",
+      "difficulty": "Новичок",
+      "prompt": "Опиши 3 бизнес-цели для [компания]. Пример: '1. Увеличение продаж на 20% 2. Выход на новый рынок.'",
+      "prompt_en": "Describe 3 business goals for [company]. Example: '1. Increase sales by 20% 2. Enter a new market.'"
+    },
+    {
+      "id": "business_strategy_002",
+      "task": "Создать SWOT-анализ",
+      "category": "Бизнес-стратегия",
+      "difficulty": "Новичок",
+      "prompt": "Составь SWOT-анализ для [компания]. Пример: 'Сильные стороны: бренд, слабые: логистика.'",
+      "prompt_en": "Create a SWOT analysis for [company]. Example: 'Strengths: brand, weaknesses: logistics.'"
+    },
+    {
+      "id": "business_strategy_003",
+      "task": "Описать план роста",
+      "category": "Бизнес-стратегия",
+      "difficulty": "Средний",
+      "prompt": "Составь план роста для [компания]. Пример: '1. Расширение ассортимента 2. Маркетинговая кампания.'",
+      "prompt_en": "Create a growth plan for [company]. Example: '1. Product range expansion 2. Marketing campaign.'"
+    },
+    {
+      "id": "business_strategy_004",
+      "task": "Разработать план оптимизации",
+      "category": "Бизнес-стратегия",
+      "difficulty": "Средний",
+      "prompt": "Опиши план оптимизации процессов для [компания]. Пример: '1. Автоматизация склада 2. Обучение персонала.'",
+      "prompt_en": "Describe a process optimization plan for [company]. Example: '1. Warehouse automation 2. Staff training.'"
+    },
+    {
+      "id": "business_strategy_005",
+      "task": "Создать бизнес-стратегию",
+      "category": "Бизнес-стратегия",
+      "difficulty": "Продвинутый",
+      "prompt": "Составь бизнес-стратегию для [компания] с 5 шагами. Пример: '1. Анализ рынка 2. Увеличение доли рынка.'",
+      "prompt_en": "Develop a business strategy for [company] with 5 steps. Example: '1. Market analysis 2. Market share increase.'"
+    }
+  ]
+}
