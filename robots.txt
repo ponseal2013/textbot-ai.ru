@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /pdf/
+Disallow: /api/
+Sitemap: https://textbot-ai.ru/sitemap.xml 
