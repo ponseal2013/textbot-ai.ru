@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TextBot-AI: 150 промптов для ИИ. Создавайте тексты, статьи, скрипты за минуты.">
-    <meta name="keywords" content="нейросети, промпты, копирайтинг, маркетинг, ИИ">
-    <meta property="og:title" content="TextBot-AI — База промптов для ИИ">
-    <meta property="og:description" content="150 промптов для ИИ. Создавайте тексты, статьи, скрипты за минуты.">
-    <meta property="og:image" content="/img/logo.png">
-    <meta property="og:url" content="https://textbot-ai.ru"> 
-    <title>TextBot-AI — База промптов для ИИ</title>
-    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-chrome-192x192.png">
-    <link rel="stylesheet" href="/assets/css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TextBot-AI: 150 промптов для ИИ. Создавайте тексты, статьи, скрипты за минуты.">
+  <meta name="keywords" content="нейросети, промпты, копирайтинг, маркетинг, ИИ">
+  <meta property="og:title" content="TextBot-AI — База промптов для ИИ">
+  <meta property="og:description" content="150 промптов для ИИ. Создавайте тексты, статьи, скрипты за минуты.">
+  <meta property="og:image" content="/img/logo.png">
+  <title>TextBot-AI — База промптов для ИИ</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="icon" href="/assets/favicon.ico">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <img src="/img/logo.png" alt="TextBot-AI Logo">
-                <span class="site-title">TEXTBOT-AI</span>
-            </div>
-            <nav>
-                <a href="/index.php">Главная</a>
-                <a href="/assets/articles/articles.php">Статьи</a>
-                <a href="/pdf/generate_pdf.php">PDF-подборки</a>
-                <a href="/premium.php">Премиум</a>
-            </nav>
-        </div>
-    </header>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="/img/logo.png" alt="Логотип TextBot-AI">
+        <h1 class="site-title">TextBot-AI</h1>
+      </div>
+      <nav>
+        <a href="/" class="active">Главная</a>
+        <a href="/articles/">Статьи</a>
+        <a href="/pdf/">PDF-подборки</a>
+        <a href="/premium.php">Премиум</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Анимированный баннер -->
+  <div class="animated-banner">
+    <img src="assets/icons/icon-1.svg" alt="AI Icon 1" class="banner-icon">
+    <img src="assets/icons/icon-2.svg" alt="AI Icon 2" class="banner-icon">
+    <img src="assets/icons/icon-3.svg" alt="AI Icon 3" class="banner-icon">
+    <img src="assets/icons/icon-4.svg" alt="AI Icon 4" class="banner-icon">
+    <img src="assets/icons/icon-5.svg" alt="AI Icon 5" class="banner-icon">
+    <img src="assets/icons/icon-6.svg" alt="AI Icon 6" class="banner-icon">
+    <img src="assets/icons/icon-7.svg" alt="AI Icon 7" class="banner-icon">
+    <img src="assets/icons/icon-8.svg" alt="AI Icon 8" class="banner-icon">
+  </div>
